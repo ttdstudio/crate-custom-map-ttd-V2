@@ -1,6 +1,7 @@
 local main = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local up = Instance.new("TextButton")
+local openui = Instance.new("TextButton")
 local down = Instance.new("TextButton")
 local onof = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
@@ -21,6 +22,15 @@ Frame.BackgroundColor3 = Color3.fromRGB(163, 255, 137)
 Frame.BorderColor3 = Color3.fromRGB(103, 221, 213)
 Frame.Position = UDim2.new(0.55, 0,0.01, 0)
 Frame.Size = UDim2.new(0, 1,0, 1)
+
+openui.Name = "openui"
+openui.Parent = Frame
+openui.BackgroundColor3 = Color3.fromRGB(79, 255, 152)
+openui.Size = UDim2.new(0, 44, 0, 28)
+openui.Font = Enum.Font.FredokaOne
+openui.Text = ""
+openui.TextColor3 = Color3.fromRGB(255,255,255)
+openui.TextSize = 14.000
 
 up.Name = "up"
 up.Parent = Frame
