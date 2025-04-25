@@ -26,30 +26,12 @@ Frame.Size = UDim2.new(0, 1,0, 1)
 openui.Name = "openui"
 openui.Parent = Frame
 openui.BackgroundColor3 = Color3.fromRGB(79, 255, 152)
-openui.Size = UDim2.new(0, 44, 0, 28)
+openui.Size = UDim2.new(0, 1, 0, 1)
 openui.Font = Enum.Font.FredokaOne
 openui.Text = ""
 openui.TextColor3 = Color3.fromRGB(255,255,255)
 openui.TextSize = 14.000
 
-mini.Name = "minimize"
-mini.Parent = main.Frame
-mini.BackgroundColor3 = Color3.fromRGB(192, 150, 230)
-mini.Font = "FredokaOne"
-mini.Size = UDim2.new(0, 45, 0, 28)
-mini.Text = "-"
-mini.TextSize = 40
-mini.Position = UDim2.new(0, 44, -1, 27)
-
-mini2.Name = "minimize2"
-mini2.Parent = main.Frame
-mini2.BackgroundColor3 = Color3.fromRGB(192, 150, 230)
-mini2.Font = "FredokaOne"
-mini2.Size = UDim2.new(0, 45, 0, 28)
-mini2.Text = "+"
-mini2.TextSize = 40
-mini2.Position = UDim2.new(0, 44, -1, 57)
-mini2.Visible = false
 
 speeds = 1
 
